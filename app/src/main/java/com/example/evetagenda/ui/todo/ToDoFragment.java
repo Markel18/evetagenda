@@ -36,7 +36,7 @@ public class ToDoFragment extends Fragment {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.flFragment, new ToDoListFragment()).commit();
 
-/* sadsadasdasdas */
+
         return root;
     }
 
