@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about_us">
+
+    <fragment
+        android:id="@+id/nav_agenda"
+        android:name="com.example.evetagenda.ui.agenda.AgendaFragment"
+        android:label="@string/agenda"
+        tools:layout="@layout/fragment_agenda" />
+
+    <fragment
+        android:id="@+id/nav_customers"
+        android:name="com.example.evetagenda.ui.customer.CustomerFragment"
+        android:label="@string/customers"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_visits"
+        android:name="com.example.evetagenda.ui.visit.VisitFragment"
+        android:label="@string/visits"
+        tools:layout="@layout/fragment_note_list" />
+
+    <fragment
+        android:id="@+id/nav_recipe"
+        android:name="com.example.evetagenda.ui.medicine.MedicineFragment"
+        android:label="@string/recipe"
+        tools:layout="@layout/fragment_note_list" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.example.evetagenda.ui.note.NoteFragment"
+        android:label="@string/notes"
+        tools:layout="@layout/fragment_note" />
+
+    <fragment
+        android:id="@+id/nav_todolist"
+        android:name="com.example.evetagenda.ui.todo.ToDoFragment"
+        android:label="@string/todolist"
+        tools:layout="@layout/fragment_todo" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.evetagenda.ui.aboutus.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_note_list" />
+
+    <fragment
+        android:id="@+id/nav_prescription"
+        android:name="com.example.evetagenda.ui.prescription.PrescriptionGeneralFragment"
+        android:label="@string/prescription"
+        tools:layout="@layout/fragment_prescription" />
+
+
+</navigation>

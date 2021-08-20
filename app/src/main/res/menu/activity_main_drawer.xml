@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/customers"
+            android:title="@string/customers" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/agenda"
+            android:title="@string/agenda" />
+        <item
+            android:id="@+id/nav_visits"
+            android:icon="@drawable/visit"
+            android:title="@string/visits" />
+        <item
+            android:id="@+id/nav_recipe"
+            android:icon="@drawable/medicine"
+            android:title="@string/recipe" />
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/recipe"
+            android:title="@string/prescription" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/note"
+            android:title="@string/notes" />
+        <item
+            android:id="@+id/nav_todolist"
+            android:icon="@drawable/todolist"
+            android:title="@string/todolist" />
+
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/aboutus"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+</menu>

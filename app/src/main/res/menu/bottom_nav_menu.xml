@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/list"
+        android:title="Λίστα"
+        android:icon="@drawable/todolist"/>
+    <item
+        android:id="@+id/home"
+        android:title="Προσθήκη"
+        android:icon="@drawable/add"/>
+
+</menu>
