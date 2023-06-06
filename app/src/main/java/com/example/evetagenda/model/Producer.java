@@ -6,7 +6,7 @@ public class Producer{
     public String prodPhone;
     public String prodEmail;
     public String prodCodeEktrofis;
-    public int prodAFM;
+    public String prodAFM;
     public String prodDOY;
     public String prodArea;
     public int prodNumAnimals;
@@ -15,7 +15,7 @@ public class Producer{
     public String registerDate;
     public int uid;
 
-    public Producer(int prodID, String prodFLname, String prodPhone, String prodEmail, String prodCodeEktrofis, int prodAFM, String prodDOY, String prodArea, int prodNumAnimals, String prodTypeAnimals, String prodFiliAnimals, String registerDate, int uid) {
+    public Producer(int prodID, String prodFLname, String prodPhone, String prodEmail, String prodCodeEktrofis, String prodAFM, String prodDOY, String prodArea, int prodNumAnimals, String prodTypeAnimals, String prodFiliAnimals, String registerDate, int uid) {
         this.prodID = prodID;
         this.prodFLname = prodFLname;
         this.prodPhone = prodPhone;
@@ -54,7 +54,7 @@ public class Producer{
         return prodCodeEktrofis;
     }
 
-    public int getProdAFM() {
+    public String getProdAFM() {
         return prodAFM;
     }
 

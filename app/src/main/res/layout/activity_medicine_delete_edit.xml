@@ -387,8 +387,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="17dp"
-            android:inputType="number"
-            android:text="0"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
@@ -415,8 +413,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="17dp"
-            android:inputType="number"
-            android:text="0"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
     </LinearLayout>

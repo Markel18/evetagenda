@@ -52,7 +52,7 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.HeroVi
         holder.anamoniMeli.setText(String.valueOf(hero.getAnamoniMeli()));
         holder.medDosologia.setText(String.valueOf(hero.getMedDosologia()));
         holder.medXronosTherapias.setText(String.valueOf(hero.getMedXronosTherapias()));
-        holder.registerMed.setText(String.valueOf(hero.getRegisterMed()));
+//        holder.registerMed.setText(String.valueOf(hero.getRegisterMed()));
     }
 
     @Override
@@ -96,7 +96,7 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.HeroVi
             anamoniMeli = itemView.findViewById(R.id.anamoniMeli);
             medDosologia = itemView.findViewById(R.id.medDosologia);
             medXronosTherapias = itemView.findViewById(R.id.medXronosTherapias);
-            registerMed = itemView.findViewById(R.id.registerMed);
+            //registerMed = itemView.findViewById(R.id.registerMed);
             itemView.setOnClickListener(this);
         }
 

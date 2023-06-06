@@ -147,6 +147,15 @@
         android:gravity="center"
         android:orientation="horizontal">
 
+        <TextView
+            android:id="@+id/anamoniProbata_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ΠΡΟΒΑΤΑ"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="17dp" />
+
         <EditText
             android:id="@+id/anamoniProbata"
             android:layout_width="0dp"
@@ -157,14 +166,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             android:textSize="17dp" />
 
-        <TextView
-            android:id="@+id/anamoniProbata_text"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="ΠΡΟΒΑΤΑ"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:textSize="17dp" />
+
 
     </LinearLayout>
 
@@ -386,10 +388,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="17dp"
-            android:inputType="number"
-            android:text="0"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            android:textSize="19dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
 
     </LinearLayout>
 
@@ -415,8 +416,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textSize="17dp"
-            android:inputType="number"
-            android:text="0"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
 
     </LinearLayout>

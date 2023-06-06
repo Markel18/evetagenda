@@ -7,18 +7,18 @@ public class Medicine implements Serializable {
     public String medName;
     public String drastikiOusia;
     public String medCompany;
-    public int anamoniBooeidi;
-    public int anamoniAiges;
-    public int anamoniProbata;
-    public int anamoniXoiroi;
-    public int anamoniIndornithes;
-    public int anamoniMelisses;
-    public int anamoniKreas;
-    public int anamoniGala;
-    public int anamoniAuga;
-    public int anamoniMeli;
+    public String anamoniBooeidi;
+    public String anamoniAiges;
+    public String anamoniProbata;
+    public String anamoniXoiroi;
+    public String anamoniIndornithes;
+    public String anamoniMelisses;
+    public String anamoniKreas;
+    public String anamoniGala;
+    public String anamoniAuga;
+    public String anamoniMeli;
     public String medDosologia;
-    public int medXronosTherapias;
+    public String medXronosTherapias;
     public String registerMed;
     public int uid;
 
@@ -39,43 +39,43 @@ public class Medicine implements Serializable {
         return medCompany;
     }
 
-    public int getAnamoniBooeidi() {
+    public String getAnamoniBooeidi() {
         return anamoniBooeidi;
     }
 
-    public int getAnamoniAiges() {
+    public String getAnamoniAiges() {
         return anamoniAiges;
     }
 
-    public int getAnamoniProbata() {
+    public String getAnamoniProbata() {
         return anamoniProbata;
     }
 
-    public int getAnamoniXoiroi() {
+    public String getAnamoniXoiroi() {
         return anamoniXoiroi;
     }
 
-    public int getAnamoniIndornithes() {
+    public String getAnamoniIndornithes() {
         return anamoniIndornithes;
     }
 
-    public int getAnamoniMelisses() {
+    public String getAnamoniMelisses() {
         return anamoniMelisses;
     }
 
-    public int getAnamoniKreas() {
+    public String getAnamoniKreas() {
         return anamoniKreas;
     }
 
-    public int getAnamoniGala() {
+    public String getAnamoniGala() {
         return anamoniGala;
     }
 
-    public int getAnamoniAuga() {
+    public String getAnamoniAuga() {
         return anamoniAuga;
     }
 
-    public int getAnamoniMeli() {
+    public String getAnamoniMeli() {
         return anamoniMeli;
     }
 
@@ -83,7 +83,7 @@ public class Medicine implements Serializable {
         return medDosologia;
     }
 
-    public int getMedXronosTherapias() {
+    public String getMedXronosTherapias() {
         return medXronosTherapias;
     }
 

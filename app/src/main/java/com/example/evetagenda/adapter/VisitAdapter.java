@@ -47,7 +47,11 @@ public class VisitAdapter extends RecyclerView.Adapter<VisitAdapter.HeroViewHold
 
     @Override
     public int getItemCount() {
-        return heroList.size();
+        if(heroList != null){
+            return heroList.size();
+        }else{
+            return 0;
+        }
     }
 
     class HeroViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{

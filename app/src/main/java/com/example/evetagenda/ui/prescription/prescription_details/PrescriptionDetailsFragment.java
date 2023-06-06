@@ -58,10 +58,10 @@ public class PrescriptionDetailsFragment extends Fragment {
 
     private int medicineId;
     private String doseText;
-    private int meatText;
-    private int milkText;
-    private int eggText;
-    private int honeyText;
+    private String meatText;
+    private String milkText;
+    private String eggText;
+    private String honeyText;
     private String manualText;
     private String otherNetText;
     private String commentsText;
